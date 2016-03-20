@@ -559,7 +559,6 @@ button:hover,
   color: #91a2c4;
 }
 .site {
-  max-width: 1680px;
   margin: auto;
 }
 .site-header {
@@ -628,7 +627,7 @@ button:hover,
   width: 30px;
   height: 1px;
   background: #fff;
-  left: -20px;
+  left: 60px;
   top: 84%;
   transform: translateY(-50%);
   border-radius: 10px;
@@ -640,7 +639,7 @@ button:hover,
   width: 30px;
   height: 1px;
   background: #fff;
-  right: -20px;
+  right: 60px;
   top: 84%;
   transform: translateY(-50%);
   border-radius: 10px;
