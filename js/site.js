@@ -101,7 +101,7 @@
         
         // Mobile Navigation behaviour
         $('.nav-toggle-btn').on('click', function(event){
-            console.log('oui');
+            
             if(!$('.main-nav ul').hasClass('visible')){
                 $(this).addClass('nav-is-visible');
                 $('.main-nav ul').addClass('visible');  
@@ -112,7 +112,12 @@
                 $('body').removeClass('nav-is-visible');
             }
 
+        });
 
+        $('.main-nav ul a').click(function() {
+                $('.nav-toggle-btn').removeClass('nav-is-visible');
+                $('.main-nav ul').removeClass('visible');
+                $('body').removeClass('nav-is-visible');
         });
         
         // Modals
