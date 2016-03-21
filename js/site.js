@@ -73,7 +73,7 @@
                              })
                        }
 
-                       if(wScroll>=$('#work').offset().top-(wScroll/3)){
+                       if(wScroll>=$('#gallery').offset().top-(wScroll/3)){
 
                             $('.portfolio-item').each(function(index) {        
                                 var that = this;
